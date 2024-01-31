@@ -5,3 +5,10 @@
 body{
   background-color: #0C041C;
 }
+
+.color-gradient {
+  display: inline-block;
+  background: linear-gradient(225deg, #E741E7 8.12%, #6926F6 92.21%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
