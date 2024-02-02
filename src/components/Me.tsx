@@ -40,8 +40,8 @@ const Me = () => {
                     </p>
                     <div className="mt-3">
                         {
-                            icons.map((item) =>(
-                                <Link href={item.link}>
+                            icons.map((item, index) =>(
+                                <Link key={index} href={item.link}>
                                     <button type="button" className="text-blue-700 border border-blue-700 hover:bg-blue-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center me-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900">
                                         {item.icon}
                                     </button>
