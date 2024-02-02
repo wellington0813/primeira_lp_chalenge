@@ -9,7 +9,7 @@ const Hero = () => {
     return(
         <div className="text-white">
            <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-                <p className="color-gradient font-bold uppercase">Landing Page1</p>
+                <p className="color-gradient font-bold uppercase">Landing Page</p>
                 <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>Aprimore seus conhecimentos.</h1>
                 <div>
                     <p className="md:text-2xl sm:text-1xl text-xl font-bold text-gray-500">Criando Landing Page para aperfeiçoar</p>
