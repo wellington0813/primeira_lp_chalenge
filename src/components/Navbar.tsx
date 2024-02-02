@@ -3,11 +3,9 @@ import React, {useState} from "react";
 import {TiThMenu, TiTimes  } from 'react-icons/ti'
 
 const Navbar = () => {
-    const [nav, setNav] = useState(false);
+    const [nav, setNav] = useState(true);
 
-    const handleNav = () => {
-        setNav(!nav);
-    };
+    const handleNav = () => (setNav(!nav))
 
     return(
         <div className="flex justify-between items-center h-24 max-w-[1240] mx-auto px-4 text-white">
