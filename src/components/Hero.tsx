@@ -13,7 +13,7 @@ const Hero = () => {
                 <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>Aprimore seus conhecimentos.</h1>
                 <div>
                     <p className="md:text-2xl sm:text-1xl text-xl font-bold text-gray-500">Criando Landing Page para aperfeiçoar</p>
-                    <p className="md:text-2xl sm:text-1xl text-xl font-bold text-gray-500"> meus connhecimento em </p>
+                    <p className="md:text-2xl sm:text-1xl text-xl font-bold text-gray-500"> meus connhecimentos</p>
                 </div>
                 <div className="flex justify-center mt-3">
                     <div>

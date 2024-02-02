@@ -70,9 +70,9 @@ const Benefits = () => {
                 </div>
             </div>
            
-            <div>
+            <div className="md:m-20 grid grid-cols-1 gap-4  md:grid-cols-3">
                 {beneficios.map((card) => (
-                    <div key={card.id} className="box-border relative gap-3 p-8 overflow-hidden text-black no-underline border dark:text-white rounded-xl dark:border-neutral-800 m-4">
+                    <div key={card.id} className="box-border grid-cols-3 relative gap-3 p-8 overflow-hidden text-black no-underline border dark:text-white rounded-xl dark:border-neutral-800 m-4">
                         <div className="flex gap-2 items-center">
                             {card.icon}
                             <h3 className="font-bold text-gray-900 font-space-grotesk dark:text-white">
